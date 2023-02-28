@@ -1,0 +1,46 @@
+[
+    {
+        "name": "React.js",
+        "validation": 1
+    },
+    {
+        "name": "Amazon Web Services",
+        "validation": 5
+    },
+    {
+        "name": "Golang",
+        "validation": 1
+    },
+    {
+        "name": "E-Learning",
+        "validation": 4
+    },
+    {
+        "name": "Web development",
+        "validation": 4
+    },
+    {
+        "name": "Laravel",
+        "validation": 2
+    },
+    {
+        "name": "PHP",
+        "validation": 7
+    },
+    {
+        "name": "SQL",
+        "validation": 1
+    },
+    {
+        "name": "JavaScript",
+        "validation": 11
+    },
+    {
+        "name": "HTML5",
+        "validation": 7
+    },
+    {
+        "name": "CSS3",
+        "validation": 6
+    }
+]

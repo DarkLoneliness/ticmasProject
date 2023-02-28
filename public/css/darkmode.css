@@ -1,0 +1,53 @@
+
+html[mode='dark'] {
+    --page_background: #222;
+    --box_background: #333;
+    --box_border: 1px solid #555;
+
+    --title_color: rgba(255,255,255,0.9);
+    --subtitle_color: rgba(255,255,255,0.8);
+    --details_color: rgba(255,255,255,0.6);
+
+}
+
+/**/
+
+html[mode='dark'] #themeMode > .moon {
+    display: none;
+}
+
+html[mode='dark'] #themeMode > .sun {
+    color: #ccc;
+}
+
+html[mode='dark'] #themeMode:hover {
+    background-color: #666;
+}
+
+/**/
+
+html[mode='dark'] #loadSkills {
+    background: #666;
+
+    color: #ccc;
+    border: var(--box_border);
+}
+
+/**/
+
+html[mode='dark'] footer > section > a {
+    background: none;
+}
+
+html[mode='dark'] footer > section > a:hover {
+    background-color: #b6b6b6;
+}
+
+html[mode='dark'] footer > section > a > svg {
+    stroke: #ccc;
+}
+
+html[mode='dark'] .logo > div:hover > a {
+    text-decoration: underline;
+    color: #5151e2;
+}

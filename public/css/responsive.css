@@ -1,0 +1,37 @@
+
+@media (max-width: 800px) {
+    :root {
+        --page_width: 100vw;    
+    }
+}
+
+@media (max-width: 650px) {
+    .information {
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 600px) {
+    .header > section {
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .header > section > div:last-of-type {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 500px) {
+    .header > section > div:last-of-type {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    footer {
+        justify-content: center;
+    }
+}
+
