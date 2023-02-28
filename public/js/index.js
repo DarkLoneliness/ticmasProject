@@ -97,7 +97,7 @@ class Skills {
     }
 
     fetchData() {
-        fetch('/public/json/skills.json')
+        fetch('./public/json/skills.json')
         .then(response => response.json())
         .then(data => this.setData(data));
     }
